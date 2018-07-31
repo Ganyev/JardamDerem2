@@ -15,4 +15,8 @@ class CategoryResult: Decodable {
 class Result: Decodable {
     var id: Int?
     var category_name: String?
+    var category_imgPath: String?
+    var category_imgPath_height: Int?
+    var category_imgPath_width: Int?
+    var city: Int?
 }
