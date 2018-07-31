@@ -10,6 +10,8 @@
 		17C1517C69F0FD42F8408F14 /* Pods_JardamBeremApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1A2FF1DD4B6DAC6CA31581 /* Pods_JardamBeremApp.framework */; };
 		79026A61210F6EA600953146 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79026A60210F6EA600953146 /* DataManager.swift */; };
 		940C91E12110A3D90008E6BE /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C91E02110A3D90008E6BE /* Categories.swift */; };
+		940C91E32110A8180008E6BE /* RamiliaST.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940C91E22110A8180008E6BE /* RamiliaST.storyboard */; };
+		940C91E52110A8220008E6BE /* BahaST.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940C91E42110A8220008E6BE /* BahaST.storyboard */; };
 		FFC2108E210F3BF200C99671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC2108D210F3BF200C99671 /* AppDelegate.swift */; };
 		FFC21090210F3BF200C99671 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC2108F210F3BF200C99671 /* ViewController.swift */; };
 		FFC21093210F3BF200C99671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC21091210F3BF200C99671 /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 		73D090A0878FBB02A77AFE11 /* Pods-JardamBeremApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JardamBeremApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-JardamBeremApp/Pods-JardamBeremApp.release.xcconfig"; sourceTree = "<group>"; };
 		79026A60210F6EA600953146 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		940C91E02110A3D90008E6BE /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		940C91E22110A8180008E6BE /* RamiliaST.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RamiliaST.storyboard; sourceTree = "<group>"; };
+		940C91E42110A8220008E6BE /* BahaST.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BahaST.storyboard; sourceTree = "<group>"; };
 		CC1A2FF1DD4B6DAC6CA31581 /* Pods_JardamBeremApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JardamBeremApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC2108A210F3BF100C99671 /* JardamBeremApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JardamBeremApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC2108D210F3BF200C99671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				FFC21091210F3BF200C99671 /* Main.storyboard */,
+				940C91E22110A8180008E6BE /* RamiliaST.storyboard */,
+				940C91E42110A8220008E6BE /* BahaST.storyboard */,
 			);
 			path = "Storyboard's & Xibs";
 			sourceTree = "<group>";
@@ -209,7 +215,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940C91E52110A8220008E6BE /* BahaST.storyboard in Resources */,
 				FFC21098210F3BF200C99671 /* LaunchScreen.storyboard in Resources */,
+				940C91E32110A8180008E6BE /* RamiliaST.storyboard in Resources */,
 				FFC21095210F3BF200C99671 /* Assets.xcassets in Resources */,
 				FFC21093210F3BF200C99671 /* Main.storyboard in Resources */,
 			);
